@@ -1,0 +1,21 @@
+docker search nginx
+docker info
+docker images
+docker ps
+docker ps -a
+docker pull node
+docker run -d --name sonarqube -p 9000:900 sonarqube:lts-community
+docker logs conatiners_id
+docker history sonarqube:lts-community
+docker exec -it 67aa11377b95 /bin/bash
+docker kill container-id
+docker stop conatiner_id
+docker network ls
+docker network inspect bridge
+docker rm containerId1 containerId2
+docker pause containerId
+docker unpause conatiners_id
+docker top conatinerId
+docker status
+docker system prume
+docker system prune
